@@ -1,4 +1,4 @@
-﻿Log file open, 02/17/20 15:27:32
+﻿Log file open, 08/31/20 21:53:19
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: FPSGame
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.494717
+LogStats: Stats thread started at 0.589259
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.076s to configure plugins.
+LogStreaming: Display: Took  0.077s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,419 +149,454 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.02.17-14.27.32:637][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.02.17-14.27.32:637][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.02.17-14.27.32:637][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
-[2020.02.17-14.27.32:637][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.02.17-14.27.32:637][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
-[2020.02.17-14.27.32:637][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
-[2020.02.17-14.27.32:637][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.02.17-14.27.32:637][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.02.17-14.27.32:637][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.02.17-14.27.32:637][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.02.17-14.27.32:637][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.02.17-14.27.32:637][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.02.17-14.27.32:638][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2020.02.17-14.27.32:639][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.02.17-14.27.32:639][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.02.17-14.27.32:639][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2020.02.17-14.27.32:639][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.02.17-14.27.32:639][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.02.17-14.27.32:639][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.02.17-14.27.32:639][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.02.17-14.27.32:639][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
-[2020.02.17-14.27.32:639][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
-[2020.02.17-14.27.32:646][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:646][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.17-14.27.32:647][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.17-14.27.32:647][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:647][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.02.17-14.27.32:647][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:647][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.17-14.27.32:647][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.17-14.27.32:647][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.17-14.27.32:647][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.17-14.27.32:647][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.17-14.27.32:647][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.17-14.27.32:647][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.17-14.27.32:647][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.17-14.27.32:647][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.17-14.27.32:647][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.02.17-14.27.32:648][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.17-14.27.32:649][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.17-14.27.32:650][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.17-14.27.32:651][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.17-14.27.32:651][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.17-14.27.32:651][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.17-14.27.32:651][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.17-14.27.32:651][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:651][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.17-14.27.32:651][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.17-14.27.32:651][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.17-14.27.32:651][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.02.17-14.27.32:658][  0]LogHAL: Display: Platform has ~ 16 GB [17115275264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.02.17-14.27.32:658][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2020.02.17-14.27.32:659][  0]LogInit: Going up to parent DeviceProfile []
-[2020.02.17-14.27.32:659][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:659][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.17-14.27.32:659][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.17-14.27.32:659][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:659][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.02.17-14.27.32:659][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:659][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.17-14.27.32:659][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.17-14.27.32:659][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.17-14.27.32:659][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.17-14.27.32:659][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.17-14.27.32:659][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.17-14.27.32:660][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.17-14.27.32:661][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.17-14.27.32:662][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.17-14.27.32:663][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.17-14.27.32:663][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.17-14.27.32:663][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.17-14.27.32:663][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.17-14.27.32:663][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.17-14.27.32:663][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
-[2020.02.17-14.27.32:663][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.17-14.27.32:663][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.17-14.27.32:663][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.02.17-14.27.32:663][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.02.17-14.27.32:663][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
-[2020.02.17-14.27.32:663][  0]LogInit: Computer: DESKTOP-5203QMD
-[2020.02.17-14.27.32:663][  0]LogInit: User: maure
-[2020.02.17-14.27.32:663][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.02.17-14.27.32:663][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.02.17-14.27.32:664][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.02.17-14.27.32:664][  0]LogMemory: Platform Memory Stats for Windows
-[2020.02.17-14.27.32:664][  0]LogMemory: Process Physical Memory: 104.21 MB used, 104.22 MB peak
-[2020.02.17-14.27.32:664][  0]LogMemory: Process Virtual Memory: 86.22 MB used, 86.22 MB peak
-[2020.02.17-14.27.32:664][  0]LogMemory: Physical Memory: 9380.82 MB used,  6941.58 MB free, 16322.40 MB total
-[2020.02.17-14.27.32:664][  0]LogMemory: Virtual Memory: 4648.07 MB used,  134213080.00 MB free, 134217728.00 MB total
-[2020.02.17-14.27.32:789][  0]LogInit: Using OS detected language (en-US).
-[2020.02.17-14.27.32:789][  0]LogInit: Using OS detected locale (en-US).
-[2020.02.17-14.27.32:790][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.02.17-14.27.33:083][  0]LogStreaming: Display: Took  0.294s to InitEngineTextLocalization.
-[2020.02.17-14.27.33:083][  0]LogInit: Setting process to per monitor DPI aware
-[2020.02.17-14.27.33:132][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.02.17-14.27.33:132][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.02.17-14.27.33:312][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.02.17-14.27.33:312][  0]LogD3D11RHI: D3D11 adapters:
-[2020.02.17-14.27.33:395][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
-[2020.02.17-14.27.33:395][  0]LogD3D11RHI:       8010/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.02.17-14.27.33:401][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.02.17-14.27.33:401][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.02.17-14.27.33:401][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.02.17-14.27.33:409][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.02.17-14.27.33:409][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
-[2020.02.17-14.27.33:410][  0]LogWindows: EnumDisplayDevices:
-[2020.02.17-14.27.33:410][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
-[2020.02.17-14.27.33:410][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
-[2020.02.17-14.27.33:411][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2020.02.17-14.27.33:411][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2020.02.17-14.27.33:412][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.02.17-14.27.33:412][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
-[2020.02.17-14.27.33:412][  0]LogD3D11RHI:   Driver Version: 442.19 (internal:26.21.14.4219, unified:442.19)
-[2020.02.17-14.27.33:412][  0]LogD3D11RHI:      Driver Date: 1-29-2020
-[2020.02.17-14.27.33:412][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
-[2020.02.17-14.27.33:462][  0]LogD3D11RHI: Async texture creation enabled
-[2020.02.17-14.27.33:479][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.02.17-14.27.33:824][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.02.17-14.27.33:836][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.02.17-14.27.33:849][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.02.17-14.27.33:861][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.02.17-14.27.33:874][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.02.17-14.27.33:891][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.02.17-14.27.33:908][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.02.17-14.27.33:921][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.02.17-14.27.33:928][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.02.17-14.27.33:996][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.33:997][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.17-14.27.34:001][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.02.17-14.27.34:068][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.02.17-14.27.34:068][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.02.17-14.27.34:088][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.02.17-14.27.34:088][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.02.17-14.27.34:100][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.02.17-14.27.34:112][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.02.17-14.27.34:123][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.02.17-14.27.34:134][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.02.17-14.27.34:173][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2020.02.17-14.27.34:173][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2020.02.17-14.27.34:174][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.02.17-14.27.34:259][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (D:/Dev/Workspace_Unreal/StealthGame/Intermediate/Shaders/WorkingDirectory/20456/).
-[2020.02.17-14.27.34:259][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/maure/AppData/Local/Temp/UnrealShaderWorkingDir/33558229488EA692602E05B2C9A0480A/'.
-[2020.02.17-14.27.34:261][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.02.17-14.27.34:261][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.02.17-14.27.34:261][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.02.17-14.27.34:704][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.02.17-14.27.34:747][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/maure/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2020.02.17-14.27.34:747][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/maure/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2020.02.17-14.27.34:747][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Dev/Workspace_Unreal/StealthGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.02.17-14.27.34:747][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.02.17-14.27.34:747][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Dev/Workspace_Unreal/StealthGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.17-14.27.34:748][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.02.17-14.27.34:760][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.02.17-14.27.34:760][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.17-14.27.34:760][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.02.17-14.27.34:773][  0]LogDerivedDataCache: Using Local data cache path C:/Users/maure/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.02.17-14.27.34:773][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.02.17-14.27.34:773][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.02.17-14.27.34:790][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.02.17-14.27.34:792][  0]LogSlate: Using FreeType 2.6.0
-[2020.02.17-14.27.34:793][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.02.17-14.27.34:870][  0]LogAssetRegistry: FAssetRegistry took 0.0332 seconds to start up
-[2020.02.17-14.27.35:110][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.17-14.27.35:243][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.02.17-14.27.35:249][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.02.17-14.27.35:249][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.02.17-14.27.35:249][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.02.17-14.27.35:249][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.02.17-14.27.35:259][  0]LogNetVersion: FPSGame 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 267577011)
-[2020.02.17-14.27.35:664][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.068821 seconds
-[2020.02.17-14.27.35:669][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2020.02.17-14.27.35:669][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
-[2020.02.17-14.27.35:669][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.02.17-14.27.36:445][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.02.17-14.27.36:460][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.02.17-14.27.37:159][  0]SourceControl: Source control is disabled
-[2020.02.17-14.27.37:159][  0]SourceControl: Source control is disabled
-[2020.02.17-14.27.37:162][  0]SourceControl: Source control is disabled
-[2020.02.17-14.27.37:164][  0]SourceControl: Source control is disabled
-[2020.02.17-14.27.37:368][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.02.17-14.27.37:490][  0]LogOcInput: OculusInput pre-init called
-[2020.02.17-14.27.37:625][  0]LogEngine: Initializing Engine...
-[2020.02.17-14.27.37:626][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.02.17-14.27.37:627][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2020.02.17-14.27.37:627][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.02.17-14.27.37:627][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2020.02.17-14.27.37:627][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.02.17-14.27.37:814][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.02.17-14.27.37:826][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.02.17-14.27.37:861][  0]LogInit: XAudio2 using 'Casque pour téléphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.02.17-14.27.37:886][  0]LogInit: FAudioDevice initialized.
-[2020.02.17-14.27.37:886][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.02.17-14.27.37:939][  0]LogDerivedDataCache: Saved boot cache 0.05s 73MB C:/Users/maure/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2020.02.17-14.27.37:940][  0]LogInit: Texture streaming: Enabled
-[2020.02.17-14.27.37:962][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.02.17-14.27.37:971][  0]LogInit: Transaction tracking system initialized
-[2020.02.17-14.27.38:003][  0]BlueprintLog: New page: Editor Load
-[2020.02.17-14.27.38:123][  0]LocalizationService: Localization service is disabled
-[2020.02.17-14.27.38:530][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/Workspace_Unreal/StealthGame/Content/' took 0.01s
-[2020.02.17-14.27.38:530][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.02.17-14.27.38:530][  0]LogCook: Display: Mobile HDR setting 1
-[2020.02.17-14.27.38:530][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.02.17-14.27.38:530][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2020.02.17-14.27.38:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.02.17-14.27.38:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2020.02.17-14.27.38:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.02.17-14.27.38:671][  0]SourceControl: Source control is disabled
-[2020.02.17-14.27.38:671][  0]Cmd: MAP LOAD FILE="D:/Dev/Workspace_Unreal/StealthGame/Content/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.17-14.27.38:672][  0]LightingResults: New page: Lighting Build
-[2020.02.17-14.27.38:674][  0]MapCheck: New page: Map Check
-[2020.02.17-14.27.38:674][  0]LightingResults: New page: Lighting Build
-[2020.02.17-14.27.38:808][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2020.02.17-14.27.38:819][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.17-14.27.38:840][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.17-14.27.38:841][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.095ms to complete.
-[2020.02.17-14.27.38:841][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.170
-[2020.02.17-14.27.38:933][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.17-14.27.38:939][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.17-14.27.38:944][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.17-14.27.38:950][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.17-14.27.38:958][  0]LogCollectionManager: Loaded 0 collections in 0.001444 seconds
-[2020.02.17-14.27.39:001][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/Workspace_Unreal/StealthGame/Saved/Collections/' took 0.01s
-[2020.02.17-14.27.39:001][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/Workspace_Unreal/StealthGame/Content/Developers/maure/Collections/' took 0.01s
-[2020.02.17-14.27.39:001][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/Workspace_Unreal/StealthGame/Content/Collections/' took 0.01s
-[2020.02.17-14.27.39:002][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2020.02.17-14.27.39:009][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2658 classes and 623 folders.
-[2020.02.17-14.27.39:015][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.02.17-14.27.39:016][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:017][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:017][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:018][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:018][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:019][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:019][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:020][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:020][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:021][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:021][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:022][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:022][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:023][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:023][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:023][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:024][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:024][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:025][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:025][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:026][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:026][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:026][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:027][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:027][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:028][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.17-14.27.39:052][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.02.17-14.27.39:057][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2020.02.17-14.27.39:070][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.02.17-14.27.39:072][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.02.17-14.27.39:076][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.02.17-14.27.39:137][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2020.02.17-14.27.39:285][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.02.17-14.27.39:285][  0]LogLoad: (Engine Initialization) Total time: 8.38 seconds
-[2020.02.17-14.27.39:285][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.02.17-14.27.39:339][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.02.17-14.27.39:348][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.02.17-14.27.39:359][  1]LogAssetRegistry: Asset discovery search completed in 4.5138 seconds
-[2020.02.17-14.27.39:360][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2020.02.17-14.27.39:361][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000143 seconds (updated 0 objects)
-[2020.02.17-14.27.48:832][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.31-19.53.20:119][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.31-19.53.20:119][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.31-19.53.20:119][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.08.31-19.53.20:119][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.31-19.53.20:119][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.08.31-19.53.20:119][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.08.31-19.53.20:119][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.31-19.53.20:119][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.31-19.53.20:119][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.31-19.53.20:119][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2020.08.31-19.53.20:120][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.31-19.53.20:121][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.31-19.53.20:121][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2020.08.31-19.53.20:121][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.31-19.53.20:121][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.31-19.53.20:121][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.31-19.53.20:121][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.31-19.53.20:121][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.08.31-19.53.20:121][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.08.31-19.53.20:128][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:129][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.31-19.53.20:129][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.31-19.53.20:129][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:129][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.31-19.53.20:129][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:129][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.31-19.53.20:129][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.31-19.53.20:129][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.31-19.53.20:129][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.31-19.53.20:129][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.31-19.53.20:129][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.31-19.53.20:129][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.31-19.53.20:129][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.31-19.53.20:129][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.31-19.53.20:129][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.31-19.53.20:130][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.31-19.53.20:131][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.31-19.53.20:132][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.31-19.53.20:133][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.31-19.53.20:133][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.31-19.53.20:133][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.31-19.53.20:133][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.31-19.53.20:133][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.31-19.53.20:133][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.31-19.53.20:133][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.08.31-19.53.20:133][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.31-19.53.20:133][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.31-19.53.20:133][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:133][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.31-19.53.20:133][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.31-19.53.20:133][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.31-19.53.20:133][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.31-19.53.20:141][  0]LogHAL: Display: Platform has ~ 16 GB [17115275264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.31-19.53.20:141][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2020.08.31-19.53.20:141][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.31-19.53.20:142][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:142][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.31-19.53.20:142][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.31-19.53.20:142][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:142][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.31-19.53.20:142][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:142][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.31-19.53.20:142][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.31-19.53.20:142][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.31-19.53.20:142][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.31-19.53.20:142][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.31-19.53.20:142][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.31-19.53.20:143][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.31-19.53.20:144][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.31-19.53.20:145][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.31-19.53.20:146][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.31-19.53.20:146][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.31-19.53.20:146][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.31-19.53.20:146][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.31-19.53.20:146][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.31-19.53.20:146][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.31-19.53.20:146][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.08.31-19.53.20:146][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.31-19.53.20:146][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.31-19.53.20:146][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-19.53.20:146][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.31-19.53.20:146][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.31-19.53.20:146][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.31-19.53.20:147][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.31-19.53.20:147][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Dev/Workspace_Unreal/StealthGame/Saved/Config/Windows/Engine.ini]
+[2020.08.31-19.53.20:147][  0]LogInit: Computer: DESKTOP-MAUREL
+[2020.08.31-19.53.20:147][  0]LogInit: User: maure
+[2020.08.31-19.53.20:147][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.08.31-19.53.20:147][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.31-19.53.20:147][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.08.31-19.53.20:147][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.31-19.53.20:147][  0]LogMemory: Process Physical Memory: 104.54 MB used, 104.54 MB peak
+[2020.08.31-19.53.20:147][  0]LogMemory: Process Virtual Memory: 94.33 MB used, 94.33 MB peak
+[2020.08.31-19.53.20:147][  0]LogMemory: Physical Memory: 7605.62 MB used,  8716.78 MB free, 16322.40 MB total
+[2020.08.31-19.53.20:147][  0]LogMemory: Virtual Memory: 4656.15 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2020.08.31-19.53.20:336][  0]LogInit: Using OS detected language (en-US).
+[2020.08.31-19.53.20:336][  0]LogInit: Using OS detected locale (en-US).
+[2020.08.31-19.53.20:337][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.08.31-19.53.20:751][  0]LogStreaming: Display: Took  0.414s to InitEngineTextLocalization.
+[2020.08.31-19.53.20:751][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.31-19.53.20:796][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.31-19.53.20:796][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.31-19.53.21:039][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.31-19.53.21:039][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.31-19.53.21:127][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2020.08.31-19.53.21:127][  0]LogD3D11RHI:       8010/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.08.31-19.53.21:139][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.31-19.53.21:139][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.31-19.53.21:139][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.31-19.53.21:147][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.31-19.53.21:147][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.31-19.53.21:147][  0]LogWindows: EnumDisplayDevices:
+[2020.08.31-19.53.21:148][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2020.08.31-19.53.21:148][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2020.08.31-19.53.21:149][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.08.31-19.53.21:149][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.08.31-19.53.21:150][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.08.31-19.53.21:150][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2020.08.31-19.53.21:150][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.08.31-19.53.21:150][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.08.31-19.53.21:150][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.08.31-19.53.21:201][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.31-19.53.21:222][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.08.31-19.53.21:595][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.08.31-19.53.21:608][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.08.31-19.53.21:620][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.08.31-19.53.21:633][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.08.31-19.53.21:647][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.08.31-19.53.21:660][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.08.31-19.53.21:673][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.08.31-19.53.21:686][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.08.31-19.53.21:694][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.08.31-19.53.21:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:754][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.08.31-19.53.21:759][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.08.31-19.53.21:824][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.08.31-19.53.21:824][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.08.31-19.53.21:845][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.08.31-19.53.21:845][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.08.31-19.53.21:857][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.08.31-19.53.21:869][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.08.31-19.53.21:882][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.08.31-19.53.21:896][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.08.31-19.53.21:939][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.08.31-19.53.21:939][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2020.08.31-19.53.21:939][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.31-19.53.22:057][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (D:/Dev/Workspace_Unreal/StealthGame/Intermediate/Shaders/WorkingDirectory/15452/).
+[2020.08.31-19.53.22:057][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/maure/AppData/Local/Temp/UnrealShaderWorkingDir/2357B28046E2AEC281FB688A090E7938/'.
+[2020.08.31-19.53.22:060][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.31-19.53.22:061][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.31-19.53.22:061][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.31-19.53.22:549][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.31-19.53.22:629][  0]LogDerivedDataCache: Loaded boot cache 0.08s 73MB C:/Users/maure/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2020.08.31-19.53.22:630][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/maure/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2020.08.31-19.53.22:630][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Dev/Workspace_Unreal/StealthGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.31-19.53.22:630][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.31-19.53.22:630][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Dev/Workspace_Unreal/StealthGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.31-19.53.22:630][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.31-19.53.22:643][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.31-19.53.22:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.31-19.53.22:643][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.31-19.53.22:656][  0]LogDerivedDataCache: Using Local data cache path C:/Users/maure/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.31-19.53.22:656][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.31-19.53.22:656][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.31-19.53.22:674][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.08.31-19.53.22:675][  0]LogSlate: Using FreeType 2.6.0
+[2020.08.31-19.53.22:676][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.31-19.53.22:811][  0]LogAssetRegistry: FAssetRegistry took 0.0332 seconds to start up
+[2020.08.31-19.53.23:045][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.31-19.53.23:195][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.08.31-19.53.23:203][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.08.31-19.53.23:203][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.31-19.53.23:203][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.31-19.53.23:204][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.08.31-19.53.23:215][  0]LogNetVersion: FPSGame 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 267577011)
+[2020.08.31-19.53.23:631][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.070411 seconds
+[2020.08.31-19.53.23:636][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2020.08.31-19.53.23:636][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2020.08.31-19.53.23:636][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.31-19.53.25:019][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.31-19.53.25:036][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.31-19.53.25:780][  0]SourceControl: Source control is disabled
+[2020.08.31-19.53.25:780][  0]SourceControl: Source control is disabled
+[2020.08.31-19.53.25:784][  0]SourceControl: Source control is disabled
+[2020.08.31-19.53.25:788][  0]SourceControl: Source control is disabled
+[2020.08.31-19.53.26:037][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.31-19.53.26:194][  0]LogOcInput: OculusInput pre-init called
+[2020.08.31-19.53.26:340][  0]LogEngine: Initializing Engine...
+[2020.08.31-19.53.26:341][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.31-19.53.26:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.08.31-19.53.26:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.08.31-19.53.26:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.08.31-19.53.26:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.08.31-19.53.26:521][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.31-19.53.26:536][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.31-19.53.26:581][  0]LogInit: XAudio2 using 'Casque pour téléphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.08.31-19.53.26:618][  0]LogInit: FAudioDevice initialized.
+[2020.08.31-19.53.26:619][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.31-19.53.26:673][  0]LogDerivedDataCache: Saved boot cache 0.05s 73MB C:/Users/maure/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2020.08.31-19.53.26:674][  0]LogInit: Texture streaming: Enabled
+[2020.08.31-19.53.26:701][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.31-19.53.26:712][  0]LogInit: Transaction tracking system initialized
+[2020.08.31-19.53.26:753][  0]BlueprintLog: New page: Editor Load
+[2020.08.31-19.53.26:916][  0]LocalizationService: Localization service is disabled
+[2020.08.31-19.53.27:353][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/Workspace_Unreal/StealthGame/Content/' took 0.01s
+[2020.08.31-19.53.27:353][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.31-19.53.27:353][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.31-19.53.27:353][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.08.31-19.53.27:353][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2020.08.31-19.53.27:353][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.08.31-19.53.27:353][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2020.08.31-19.53.27:353][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.08.31-19.53.27:543][  0]SourceControl: Source control is disabled
+[2020.08.31-19.53.27:543][  0]Cmd: MAP LOAD FILE="D:/Dev/Workspace_Unreal/StealthGame/Content/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.31-19.53.27:543][  0]LightingResults: New page: Lighting Build
+[2020.08.31-19.53.27:546][  0]MapCheck: New page: Map Check
+[2020.08.31-19.53.27:546][  0]LightingResults: New page: Lighting Build
+[2020.08.31-19.53.27:771][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.08.31-19.53.27:786][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.31-19.53.27:808][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.31-19.53.27:808][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.112ms to complete.
+[2020.08.31-19.53.27:808][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.265
+[2020.08.31-19.53.27:911][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.31-19.53.27:917][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.31-19.53.27:923][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.31-19.53.27:928][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.31-19.53.27:937][  0]LogCollectionManager: Loaded 0 collections in 0.001370 seconds
+[2020.08.31-19.53.27:967][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/Workspace_Unreal/StealthGame/Saved/Collections/' took 0.01s
+[2020.08.31-19.53.27:967][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/Workspace_Unreal/StealthGame/Content/Developers/maure/Collections/' took 0.01s
+[2020.08.31-19.53.27:967][  0]LogFileCache: Scanning file cache for directory 'D:/Dev/Workspace_Unreal/StealthGame/Content/Collections/' took 0.00s
+[2020.08.31-19.53.27:967][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.08.31-19.53.27:974][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2660 classes and 623 folders.
+[2020.08.31-19.53.27:981][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.31-19.53.27:984][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.27:985][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.27:987][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.27:988][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.27:990][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.27:991][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.27:992][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.27:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.27:994][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.27:996][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.27:997][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.27:998][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:000][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:001][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:002][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:004][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:005][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:006][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:007][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:009][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:010][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:011][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:012][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:014][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:016][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:017][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.08.31-19.53.28:062][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.31-19.53.28:069][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.08.31-19.53.28:082][  0]LogSlate: Took 0.000551 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.31-19.53.28:084][  0]LogSlate: Took 0.000625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.31-19.53.28:089][  0]LogSlate: Took 0.000527 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.31-19.53.28:156][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2020.08.31-19.53.28:298][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.08.31-19.53.28:299][  0]LogLoad: (Engine Initialization) Total time: 10.19 seconds
+[2020.08.31-19.53.28:299][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.31-19.53.28:354][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.08.31-19.53.28:382][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.31-19.53.28:427][  1]LogAssetRegistry: Asset discovery search completed in 5.6410 seconds
+[2020.08.31-19.53.28:429][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.08.31-19.53.28:429][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000128 seconds (updated 0 objects)
+[2020.08.31-19.53.33:190][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.31-19.54.51:332][772]LogSlate: Window 'Content Browser 2' being destroyed
+[2020.08.31-19.55.06:573][609]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.31-19.55.16:017][609]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.08.31-19.55.34:820][880]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Guard.BP_Guard
+[2020.08.31-19.55.35:233][880]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2020.08.31-19.55.36:050][880]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2020.08.31-19.55.45:035][908]LogSlate: Took 0.001762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.08.31-19.55.53:007][726]LogSkeletalMesh: Building Skeletal Mesh DwarfGrunt_R_new...
+[2020.08.31-19.55.53:010][726]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Characters/DwarfGrunt/SkelMesh/DwarfGrunt_R_new.DwarfGrunt_R_new
+[2020.08.31-19.55.55:421][726]LogTexture: Display: Building textures: T_Dwarf_Grunt_Equipment_M (AutoDXT, 2048X2048)
+[2020.08.31-19.55.55:421][726]LogTexture: Display: Building textures: T_Dwarf_Grunt_M (AutoDXT, 2048X2048)
+[2020.08.31-19.55.55:421][726]LogTexture: Display: Building textures: T_Dwarf_Grunt_Equipment_Blue_D (AutoDXT, 2048X2048)
+[2020.08.31-19.55.55:421][726]LogTexture: Display: Building textures: T_Dwarf_Grunt_Blue_D (AutoDXT, 2048X2048)
+[2020.08.31-19.55.55:421][726]LogTexture: Display: Building textures: T_Dwarf_Grunt_N (BC5, 2048X2048)
+[2020.08.31-19.55.55:421][726]LogTexture: Display: Building textures: T_Dwarf_Grunt_Equipment_Blue_N (BC5, 2048X2048)
+[2020.08.31-19.55.55:421][726]LogMaterial: Display: Missing cached shader map for material M_Dwarf_Grunt, compiling. 
+[2020.08.31-19.55.55:507][726]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.08.31-19.55.55:507][726]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.08.31-19.55.55:508][726]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.08.31-19.55.55:508][726]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.08.31-19.55.55:508][726]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.08.31-19.55.55:508][726]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.08.31-19.56.17:736][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.31-19.57.03:092][771]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.31-19.57.46:949][148]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/DwarfGrunt/Anims/Idle_1_new.Idle_1_new
+[2020.08.31-19.57.46:951][148]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/DwarfGrunt/Anims/Idle_1_new.Idle_1_new) using current/default (AnimCompress_RemoveLinearKeys_16) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.08.31-19.57.57:726][435]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.08.31-19.58.08:435][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.08.31-19.58.08:729][755]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.08.31-19.58.25:702][773]BlueprintLog: New page: Compile BP_Guard
+[2020.08.31-19.58.25:886][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Guard" FILE="D:/Dev/Workspace_Unreal/StealthGame/Content/Blueprints/BP_Guard.uasset" SILENT=true
+[2020.08.31-19.58.25:908][773]LogSavePackage: Moving 'D:/Dev/Workspace_Unreal/StealthGame/Saved/BP_Guard9A0B5F5B4E4F37524AFB3B984340EAEA.tmp' to 'D:/Dev/Workspace_Unreal/StealthGame/Content/Blueprints/BP_Guard.uasset'
+[2020.08.31-19.58.27:993][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Guard" FILE="D:/Dev/Workspace_Unreal/StealthGame/Content/Blueprints/BP_Guard.uasset" SILENT=true
+[2020.08.31-19.58.28:004][ 20]LogSavePackage: Moving 'D:/Dev/Workspace_Unreal/StealthGame/Saved/BP_Guard776B568348994536E0B82C933757F442.tmp' to 'D:/Dev/Workspace_Unreal/StealthGame/Content/Blueprints/BP_Guard.uasset'
+[2020.08.31-19.58.31:240][389]LogSlate: Window 'BP_Guard' being destroyed
