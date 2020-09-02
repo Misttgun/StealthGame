@@ -30,6 +30,13 @@ class FPSGAME_API AFPSAIGuard : public ACharacter
 	UFUNCTION()
 	void OnNoiseHeard(APawn* NoiseInstigator, const FVector& Location, float Volume);
 
+	FRotator OriginalRotation;
+
+	FTimerHandle TimerHandle_ResetOrientation;
+
+	UFUNCTION()
+	void ResetOrientation();
+
 	public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
