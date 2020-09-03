@@ -8,6 +8,14 @@
 
 class UPawnSensingComponent;
 
+UENUM(BlueprintType)
+enum class EAIState : uint8
+{
+	Idle,
+	Suspicious,
+	Alerted
+};
+
 UCLASS()
 class FPSGAME_API AFPSAIGuard : public ACharacter
 {
@@ -25,17 +33,24 @@ class FPSGAME_API AFPSAIGuard : public ACharacter
 		UPawnSensingComponent* PawnSensingComp;
 
 	UFUNCTION()
-	void OnPawnSeen(APawn* SeenPawn);
+		void OnPawnSeen(APawn* SeenPawn);
 
 	UFUNCTION()
-	void OnNoiseHeard(APawn* NoiseInstigator, const FVector& Location, float Volume);
+		void OnNoiseHeard(APawn* NoiseInstigator, const FVector& Location, float Volume);
 
 	FRotator OriginalRotation;
 
 	FTimerHandle TimerHandle_ResetOrientation;
 
+	EAIState GuardState;
+
 	UFUNCTION()
-	void ResetOrientation();
+		void ResetOrientation();
+
+	void SetGuardState(EAIState NewState);
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "AI")
+	void OnStateChanged(EAIState NewState);
 
 	public:
 	// Called every frame
