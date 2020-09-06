@@ -38,10 +38,14 @@ class FPSGAME_API AFPSAIGuard : public ACharacter
 	UFUNCTION()
 		void OnNoiseHeard(APawn* NoiseInstigator, const FVector& Location, float Volume);
 
+	UFUNCTION()
+	void OnRep_GuardState();
+
 	FRotator OriginalRotation;
 
 	FTimerHandle TimerHandle_ResetOrientation;
 
+	UPROPERTY(ReplicatedUsing = OnRep_GuardState)
 	EAIState GuardState;
 
 	UFUNCTION()
